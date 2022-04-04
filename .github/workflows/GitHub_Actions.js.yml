@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
         cache-dependency-path: Desktop/package.json 
     - run: npm install
-    - run: npm rum tsc
+    - run: tsc
     - run: npm run start
