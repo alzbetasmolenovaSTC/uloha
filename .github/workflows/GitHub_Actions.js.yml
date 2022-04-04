@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: uloha/Desktop/package-lock.json
+        cache-dependency-path: home/runner/work/uloha/Desktop
     - run: npm install
     - run: npm tsc
     - run: npm npm run start
